@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clocks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c084f67c4a.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Clocks</h1>
+        <div class="filauno">
+            <div class="box now">
+                <p class="ahora">AHORA</p>
+                <div id="now"></div>
+                <p class="info"></p>
+            </div>
+            <div class="box">
+                <p>CRONOMETRO</p>
+                <div id="valor">00:00</div>
+                <div>
+                    <i class="fas fa-pause-circle"></i>
+                    <i class="fas fa-play-circle"></i>
+                    <i class="fas fa-stop-circle"></i>
+                </div>
+            </div>
+            <div class="box">
+                <p>TEMPORIZADOR</p>
+                <p><i id="minUp" class="fas fa-sort-up"></i><i id="segUp" class="fas fa-sort-up"></i></i></p>
+                <div id="display">00:00</div>
+                <p><i id="minDown" class="fas fa-sort-down"></i> <i id="segDown" class="fas fa-sort-down"></i></p>
+                <div>
+                    <i id="temp-pause" class="fas fa-pause-circle"></i>
+                    <i id="temp-play" class="fas fa-play-circle"></i>
+                    <i id="temp-stop" class="fas fa-stop-circle"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

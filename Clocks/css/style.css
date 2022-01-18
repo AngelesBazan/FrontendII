@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+@font-face {
+    font-family: 'flipclock';
+    src: url(/fonts/FLIPclockblack.ttf);
+}
+
+@font-face {
+    font-family: 'flipwhite';
+    src: url(/fonts/FLIPclockwhite.ttf);
+}
+ */
+@font-face {
+    font-family: 'alarmclock';
+    src: url(/fonts/alarm\ clock.ttf);
+}
+@font-face {
+    font-family: 'oclock';
+    src: url(/fonts/TENOCLOCK-Regular.ttf);
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: oclock;
+    font-size: 50px;
+    color: black;
+}
+
+body{
+     background: repeating-linear-gradient(
+        90deg,
+        #bd6ce2,
+        #c755ae,
+        #f382da,
+        #ee7a44,
+        #fd9d66,
+        #fdd566,
+        #81e681,
+        #23a786,
+        #10bab9,
+        #669cdb
+    );
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 20px;
+    text-shadow: -8px 8px 2px #494747;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    flex-direction: column;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border: 14px solid #a6e9e0;
+    /* border-style: solid;
+    border-width: 14px;
+    border-image: linear-gradient(
+        135deg, #ff08d6, #e3fc08) 1; */
+    background-color: #bbf8fa7c;
+    border-radius: 50%;
+    margin: 40px 20px;
+    font-size: 80px;
+    font-family: alarmclock;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px #adff2f;
+}
+
+p{
+    font-size: 20px;
+}
+
+.fas{
+    font-size: 28px;
+    margin: 15px;
+    background-color: #1f1f25;
+    border-radius: 50%;
+    border: 3px solid #1f1f25;
+}
+
+.fas:hover{
+    border: 3px solid #718ab9ce;
+    background-color: #a6e9e0;
+}
+
+.fas:active{
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+
+.fa-play-circle{
+    color:#85dd6b;
+}
+
+.fa-pause-circle{
+    color: #e28ef7;
+}
+
+.fa-stop-circle{
+    color: #f06060;
+}
+
+.now{
+    font-size: 65px;
+    position: relative;
+}
+
+.ahora{
+    font-size: 30px;
+    position: absolute;
+    top: 45px;
+
+}
+
+#now{
+    position: absolute;
+    top: 90px;
+}
+
+.info{
+    font-size: 26px;
+    position: absolute;
+    bottom: 40px;
+}
+
+.fa-sort-up, .fa-sort-down{
+    font-size: 16px;
+    background-color: #6e6e6e93;
+    border-radius: 3px;
+    border: 1.5px solid #444343da;
+    margin: 0px 45px;
+    width: 20px;
+    height: 18px;
+    color: #fff;
+}
+
+.fa-sort-up:hover{
+    color: #000;
+    border: 1px solid #0fff1b;
+    background-color: #0fff1b;
+}
+
+.fa-sort-down:hover{
+    color: #000;
+    border: 1px solid #ff0f0f;
+    background-color: #ff0f0f;
+}
+
+.fa-sort-up:active, .fa-sort-down:active{
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+@media (max-width: 970px) {
+    .filauno{
+        display: block;
+    }
+    h1{
+        margin-top: 700px;
+    }
+}
