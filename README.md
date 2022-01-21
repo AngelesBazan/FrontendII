@@ -5,3 +5,5 @@
 Te invito a seguir los links que se encuentran debajo para visualizar el código en acción ✨
 
 ⚡ Clocks: https://angelesbazan.github.io/FrontendII/Clocks/
+
+⚡ Piedra, Papel, Tijera: https://angelesbazan.github.io/FrontendII/Piedra,%20papel,%20tijera/
