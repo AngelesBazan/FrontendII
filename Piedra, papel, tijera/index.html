@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tijera</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="central">
+            <h1>¡PIEDRA, PAPEL, TIJERA!</h1>
+            <section id="iniciar">
+                <div class="jugamos animate__animated  animate__shakeY animate__delay-3s animate__infinite">
+                    <p>¿JUGAMOS?</p>
+                </div>
+            </section>
+            <section id="opciones" class="oculto">
+                <div class="cajas">
+                    <div class="opcion animate__animated animate__swing animate__delay-3s animate__repeat-1" id="piedra">
+                    </div>
+                    <div class="opcion animate__animated animate__swing animate__delay-4s" id="papel">
+                    </div>
+                    <div class="opcion animate__animated animate__swing animate__delay-5s" id="tijera">
+                    </div>
+                </div>
+                <h4 class="animate__animated  animate__shakeY animate__delay-5s">Elegí uno</h4>
+            </section>
+            <section class="resultado oculto">
+                <div class="cajita">
+                    PC eligió:
+                    <span id="resolucion"></span>
+                    <span id="calcular"></span>
+                </div>
+            </section>
+            <div id="redes">Redes Sociales</div>
+            <div class="fakefooter oculto">
+                <div id="volver" class="jugamos">Volver</div>
+                <div id="puntaje">Puntaje<small>Vos: <span id="vos">0</span> - Pc: <span id="pc">0</span></small></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
